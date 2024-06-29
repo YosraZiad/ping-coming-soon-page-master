@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  max-width: 100%;
+}
+h1{
+  color:hsl(0, 0%, 59%);
+}
+a{
+  text-decoration:none ;
+}
+body {
+  font-family: "Libre Franklin", sans-serif;
+  text-align: center;
+  padding: 50px 0;
+}
+.heading h1 {
+  font-weight: 300;
+  padding: 50px 0 20px;
+}
+.heading h1 span {
+  font-weight: 700;
+  color:#111;
+}
+.heading p {
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+
+.heading .control-form {
+  width: 300px;
+  margin: auto;
+}
+.heading .control-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-size: 14px;
+  border: 2px solid  hsl(223, 100%, 88%);
+  border-radius: 30px;
+}
+.heading .control-form input::placeholder {
+  color:  hsl(223, 100%, 88%)
+}
+.heading .control-form button{
+  width: 100%;
+  background-color: hsl(223, 87%, 63%);
+  color:white;
+  font-family: inherit;
+  padding: 8px;
+  border: 2px solid  hsl(223, 87%, 63%);
+  border-radius: 30px;
+  cursor: pointer;
+
+
+}
+.heading .control-form button:hover{
+  cursor: pointer;
+  background-color:  hsla(223, 87%, 63%,0.6);
+  border: 2px solid hsla(223, 87%, 63%,0.6);
+  transition: background-color 0.4s;
+}
+.showcase{
+  padding: 50px 20px 80px;
+
+}
+.footer ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer ul li{
+  margin: 0 20px;
+  
+
+}
+.footer ul li a{
+color:  hsl(223, 87%, 63%);
+width: 42px;
+height: 42px;
+background-color: rgba(217, 217, 217, 0.1);
+display: inline-flex;
+border-radius: 50%;
+margin-right: 6px;
+align-items: center;
+justify-content: center;
+line-height: 1;
+border: 1px solid  hsl(223, 87%, 63%);
+position: relative;  
+}
+
+.footer a::before{
+    content: "";
+    width: 42px;
+    height: 42px;
+  
+    position: absolute;
+    background-color:  hsl(223, 87%, 63%);;
+    border-radius: 50%;
+  
+    transform: scale(0);
+	transition: 0.3s ease-in-out;
+  z-index: -5;
+
+  }
+  .footer a:hover::before {
+    transform: scale(1);
+    color:white ;
+}
+.footer a:hover {
+
+  color:white;
+}
+
+.footer p{
+  padding-top: 20px;
+  font-size: 14px;
+  color: hsl(0, 0%, 59%)
+
+}
+
+@media (min-width: 700px) {
+  .heading h1{
+    font-size: 36px;
+  }
+  .heading .control-form {
+    width: auto;
+  
+  }
+  .heading .control-form input ,.heading .control-form button {
+    width: auto;
+    padding: 12px 20px;
+  
+  }
+  .heading .control-form input{
+    width: 400px;
+  }
+  .heading .control-form button{
+    width: 150px;
+  }
+  .showcase img{
+    width:600px;
+  }
+  
+}
