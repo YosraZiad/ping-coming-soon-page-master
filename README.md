@@ -1,7 +1,7 @@
 # Frontend Mentor - Ping coming soon page solution
 
 ![Design preview for the Ping coming soon page coding challenge](./design/desktop-preview.jpg)
-
+Screenshot_29-6-2024_182017_yosraziad.github.io.jpeg
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
